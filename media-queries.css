@@ -9,7 +9,11 @@
   }
 
   .nav-links {
-    display: none;
+    position: absolute;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
   }
 
   .examples-area {
